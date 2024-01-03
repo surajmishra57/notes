@@ -46,11 +46,13 @@ interface MyFunctionalInterface {
     void myMethod(String s);
 }
 
+
 class MyClass {
     static void staticMethod(String s) {
         System.out.println("Static method: " + s);
     }
 }
+
 
 public class MethodReferenceExample {
     public static void main(String[] args) {
